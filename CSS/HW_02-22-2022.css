@@ -1,0 +1,31 @@
+
+body{
+    margin:0px;
+}
+
+.header{
+    height: 100px;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    
+    height: 500px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
