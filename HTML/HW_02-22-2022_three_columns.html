@@ -10,12 +10,15 @@
     box-sizing: border-box;
     }
 
+body{
+        margin: 0px;
+    }
 
 .column {
     float: left;
     width: 20%;
     padding: 10px;
-    height: 500px;
+    height: 100vh;
 }
 
 .column2 {
@@ -23,14 +26,9 @@
     width: 60%;
     padding: 10px;
 
-    height: 500px;
+    height: 100vh;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 </style>
 </head>
@@ -39,16 +37,16 @@
 
     <div class="row">
         <div class="column" style="background-color: #6a040f;">
-            <h2>Column 1</h2>
-                <p>Some text..</p>
+            <h2>I'm on the left</h2>
+                <p>Some text.. What do you want from me?!</p>
         </div>
         <div class="column2" style="background-color:#D00000;">
-            <h2>Column 2</h2>
-                <p>Some text..</p>
+            <h2>I'm in the middle</h2>
+                <p>Some text... I don't know, whatever.</p>
         </div>
         <div class="column" style="background-color:#e85d04;">
-            <h2>Column 3</h2>
-                <p>Some text..</p>
+            <h2>I'm right</h2>
+                <p>Some text.. Questioning my life choices...</p>
         </div>
     </div>
 
